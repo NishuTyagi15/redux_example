@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(231, 224, 224);
+} 
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.App>h1 {
+    font-size: 2.5rem;
+    color: rgb(170, 36, 36);
+}
+.btn1, .btn2 {
+    margin-top: 2rem;
+    background-color: #000;
+    color: rgb(170, 36, 36);
+    height: 8vh;
+    width: 8vw;
+    font-size: 2.5rem;
+}
+.btn1 {
+    margin-right: 2rem;
+}
+.total {
+    color: rgb(170, 36, 36);
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid #000;
+    width: 18vw;
+} 
+.link {
+    text-decoration: none;
+} 
+.total_count {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.total_count>h1 {
+    font-size: 2.5rem;
+    color: rgb(170, 36, 36);
+}
